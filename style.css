@@ -1,0 +1,25 @@
+.origami {
+  background-color: teal;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.a1 {
+  margin: 30px;
+  padding: 30px;
+  border: black solid;
+}
+a {
+  text-decoration: none;
+}
+a:visited {
+  color: purple;
+}
+a:link {
+  color: blue;
+}
+
+.a1:hover {
+  transform: scale (10);
+}
